@@ -1,0 +1,31 @@
+.Header{
+    color: var(--body_color);
+    background-color: var(--body_background);
+    position:fixed;
+    z-index: 1;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-content: center;
+    justify-content: center;
+}
+
+.Logo{
+    background: var(--logo);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 22%;
+    height: 100%;
+
+}
+
+.darkModeToggle {
+    font-size: 175%;
+    position: fixed;
+    top: 18px;
+    right: 32px;
+}
+

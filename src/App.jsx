@@ -1,9 +1,12 @@
+import { Header } from "./components/Header/Header";
+import { Hero } from "./containers/Hero/Hero";
+
+
 export default function App() {
-  return (
-    <>
-      <div>
-        <h2>Howdy, I'm Emilio Blacksmith</h2>
-      </div>
-    </>
-  );
+    return(
+        <>
+            <Header/>
+            <Hero/>
+        </>
+    );
 }

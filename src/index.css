@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Hack;
+    src: url(/fonts/HackNerdFont-Bold.ttf);
+}
+
+:root{
+    --body_background: #c5dafd;
+    --body_color: #0f1013;
+    --logo: url(/assets/Logos/logo_lightmode.png)
+}
+
+[data-theme="dark"]{
+    --body_background: #0D1117;
+    --body_color: #DBEDF3;
+    --logo: url(/assets/Logos/logo_darkmode.png)
+}
+
+*{
+    font-family: Hack;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: var(--body_background);
+    color: var(--body_color);
+}
