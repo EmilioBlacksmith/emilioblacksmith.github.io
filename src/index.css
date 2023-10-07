@@ -5,13 +5,18 @@
 
 :root{
     --body_background: #c5dafd;
-    --body_color: #0f1013;
+    --body_text_color: #3D424B;
+    --body_title_color: #000000;
+    --body_subtitle_color: #4D535E;
+
     --logo: url(/assets/Logos/logo_lightmode.png)
 }
 
 [data-theme="dark"]{
-    --body_background: #0D1117;
-    --body_color: #DBEDF3;
+    --body_background: #151D28;
+    --body_text_color: #a3abb9;
+    --body_title_color: #DBEDF3;
+    --body_subtitle_color: #4D535E;
     --logo: url(/assets/Logos/logo_darkmode.png)
 }
 
@@ -25,5 +30,10 @@
 
 body{
     background-color: var(--body_background);
-    color: var(--body_color);
+    color: var(--body_text_color);
+}
+
+a{
+    color: var(--body_text_color);
+    
 }
