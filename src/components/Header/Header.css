@@ -1,5 +1,5 @@
 .Header{
-    color: var(--body_color);
+    color: var(--body_title_color);
     background-color: var(--body_background);
     position:fixed;
     z-index: 1;
@@ -23,9 +23,42 @@
 }
 
 .darkModeToggle {
-    font-size: 175%;
+    font-size: 100%;
     position: fixed;
     top: 18px;
     right: 32px;
+    color: var(--body_title_color);
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    cursor: pointer;
+}
+
+input[type="checkbox"]::after{
+    color: var(--body_color);
+    font-size: 2em;
+    content: "\f186";
+}
+
+input[type="checkbox"]:hover::after{
+    color: var(--body_color);
+    font-size: 2em;
+    content: "\f186";
+    text-shadow: 0px 0px 2px var(--body_color);
+}
+
+input[type="checkbox"]:checked::after{
+    font-size: 2em;
+    color: var(--body_color);
+    content: "\f522";
+    
+}
+
+input[type="checkbox"]:hover:checked::after{
+    font-size: 2em;
+    color: var(--body_color);
+    content: "\f522";
+    text-shadow: 0px 0px 2px var(--body_color);
 }
 

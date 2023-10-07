@@ -5,7 +5,11 @@ export function Header() {
         <>
             <div className="Header">
                 <a className="Logo" href='/'></a>
-                <div className="darkModeToggle"></div>
+                <input 
+                    className='darkModeToggle'
+                    type='checkbox'
+                    id='darkmode-toggle'
+                ></input>
             </div>
         </>
     );
