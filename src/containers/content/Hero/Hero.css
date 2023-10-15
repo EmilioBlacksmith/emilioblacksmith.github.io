@@ -126,9 +126,11 @@ tech object{
     border-radius: 5px;
     color:var(--body_subtitle_color);
     text-align: center;
+    transition: ease-in .15s;
 }
 
 tech object:hover{
     cursor: pointer;
     color: var(--body_title_color);
+    filter: drop-shadow(0px 0px 4px var(--body_button_shadow));
 }
