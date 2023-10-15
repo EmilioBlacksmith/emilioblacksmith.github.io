@@ -1,5 +1,6 @@
 import './Hero.css';
 import React from 'react';
+import ProfilePicture from '/assets/Images/alpha_profile.webp'
 
 export function Hero(){
     const stack = ["", "", "", "", "", "", "󰚯", "󰦱", "","󱏿", "", ""];
@@ -8,7 +9,7 @@ export function Hero(){
         <div className='Hero'>
             <div className='hero_data'>
                 <div className='hero_intro'>
-                    <img src='public/assets/images/alpha_profile.webp' className='hero_profile'/>
+                    <img src={ProfilePicture} className='hero_profile'/>
                     <div className='hero_cta'>
                         <h1>HOWDY! 🤠</h1>
                         <p>I make Development fun to watch (Sometimes...)</p>
