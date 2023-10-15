@@ -1,6 +1,7 @@
 import { Footer } from "./components/Footer/Footer";
 import { Header } from "./components/Header/Header";
-import { Hero } from "./containers/Hero/Hero";
+import { Hero } from "./containers/content/Hero/Hero";
+import { Portfolio } from "./containers/content/Portfolio/Portfolio";
 
 
 export default function App() {
@@ -8,7 +9,7 @@ export default function App() {
         <>
             <Header/>
             <Footer/>
-            <Hero/>
+            <Hero />
         </>
     );
 }

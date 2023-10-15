@@ -1,0 +1,134 @@
+/* Hero Section */
+.Hero{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    padding: 12px;
+}
+
+.hero_data{
+    width: 85%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.hero_intro{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    background-color: var(--body_section_background);
+    border-radius: 15px;
+    box-shadow: 4px 4px 8px #00000025;
+}
+
+img.hero_profile{
+    z-index: 5;
+    height: 110%;
+    margin-top: -3.75%;
+}
+
+.hero_cta{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+.hero_cta h1{
+    color: var(--body_title_color);
+    font-size: 5em;
+}
+
+.hero_cta p{
+    color: var(--body_subtitle_color);
+    font-size: 1em;
+}
+
+.hero_cta_buttons{
+    width: 55%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 18px;
+}
+
+.hero_cta_buttons a{
+    background-color: var(--body_subtitle_color);
+    color: var(--body_button_text);
+    width: 50%;
+    height: 90%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 5px;
+}
+
+.hero_cta_buttons a:hover {
+    box-shadow: 0px 0px 16px var(--body_button_shadow);
+    cursor: pointer;
+}
+
+/* Who Am I Section */
+
+.hero_aboutme{
+    display: flex;
+    gap: 24px;
+    width: 100%;
+    height: 25%;
+}
+
+.hero_aboutme div{
+    background-color: var(--body_section_background);
+    border-radius: 15px;
+    box-shadow: 4px 4px 8px #00000025;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 12px;
+    gap: 8px;
+}
+
+.hero_aboutme div h2{
+    color: var(--body_title_color);
+}
+
+.hero_whoami{
+    width: 50%;
+}
+
+.hero_tech{
+    width: 50%;
+}
+
+tech{
+    display: flex;
+    flex-direction: row;
+    gap:12px;
+    font-size: 2.75em;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+tech object{
+    width: 80px;
+    height: 70px;
+    border-radius: 5px;
+    color:var(--body_subtitle_color);
+    text-align: center;
+}
+
+tech object:hover{
+    cursor: pointer;
+    color: var(--body_title_color);
+}
