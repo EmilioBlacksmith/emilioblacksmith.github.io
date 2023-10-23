@@ -29,7 +29,7 @@
 img.hero_profile{
     z-index: 5;
     height: 110%;
-    margin-top: -3.75%;
+    margin-top: -3.5%;
 }
 
 .hero_cta{
@@ -110,6 +110,10 @@ img.hero_profile{
     width: 50%;
 }
 
+.hero_whoami p {
+    font-size: .8vw;
+}
+
 tech{
     display: flex;
     flex-direction: row;
@@ -126,7 +130,7 @@ tech object{
     border-radius: 5px;
     color:var(--body_subtitle_color);
     text-align: center;
-    transition: ease-in .15s;
+    transition: ease-in-out .175s; 
 }
 
 tech object:hover{
