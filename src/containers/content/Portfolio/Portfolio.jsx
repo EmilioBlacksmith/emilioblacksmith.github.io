@@ -1,7 +1,7 @@
 export function Portfolio(){
     return(
         <section>
-            Kill me
+            <h1>/* MY PORTFOLIO 📑*/</h1>
         </section>
     );
 }
