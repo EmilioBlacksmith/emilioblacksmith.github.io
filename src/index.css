@@ -42,3 +42,9 @@ body{
 a{
     color: var(--body_text_color);
 }
+
+html{
+    scroll-snap-type: y mandatory;
+    max-width: 100%;
+    overflow-x: hidden;
+}

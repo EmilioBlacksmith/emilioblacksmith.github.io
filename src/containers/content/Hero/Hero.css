@@ -1,5 +1,5 @@
 /* Hero Section */
-.Hero{
+section{
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -7,6 +7,7 @@
     justify-items: center;
     justify-content: center;
     padding: 12px;
+    scroll-snap-align: start;
 }
 
 .hero_data{
@@ -117,7 +118,7 @@ img.hero_profile{
 tech{
     display: flex;
     flex-direction: row;
-    gap:12px;
+    column-gap:18px;
     font-size: 2.75em;
     flex-wrap: wrap;
     align-items: center;
