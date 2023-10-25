@@ -6,7 +6,7 @@ export function Hero(){
     const stack = ["", "", "", "", "", "", "󰚯", "󰦱", "","󱏿", "", ""];
 
     return (
-        <section>
+        <section className="hidden">
             <div className='hero_data'>
                 <div className='hero_intro'>
                     <img src={ProfilePicture} className='hero_profile'/>

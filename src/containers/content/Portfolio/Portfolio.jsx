@@ -1,6 +1,6 @@
 export function Portfolio(){
     return(
-        <section>
+        <section className="hidden">
             <h1>/* MY PORTFOLIO 📑*/</h1>
         </section>
     );

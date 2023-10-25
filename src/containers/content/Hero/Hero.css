@@ -44,7 +44,6 @@ img.hero_profile{
 }
 
 .hero_cta h1{
-    color: var(--body_title_color);
     font-size: 5em;
 }
 
