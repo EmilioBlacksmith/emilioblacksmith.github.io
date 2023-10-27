@@ -1,7 +1,74 @@
 .portfolio_data{
-    width: 85%;
+    width: 95%;
     height: 75%;
     display: flex;
     flex-direction: row;
     gap: 24px;
+    justify-content: space-between;
 }
+
+.SectionName{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25vw;
+}
+
+.Projects{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: space-around;
+}
+
+.PortfolioProject{
+    width: 50%;
+    height: 40%;
+    transform: rotate3d(0,1,0,30deg) translateX(+5%);
+    perspective: 10em;
+    transition: ease-in .1s;
+    background-color: var(--body_section_background);
+    padding: 24px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 8px #00000025;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.PortfolioProject img{
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px var(--body_button_shadow);
+}
+
+.PortfolioProject h3{
+    position: absolute;
+    bottom: 0%;
+    left: -4%;
+    transform: rotate(270deg);
+    transform-origin: 0 0;
+    color: var(--body_subtitle_color);
+    text-transform: uppercase;
+    width: 38%;
+    text-align: center;
+}
+
+.project_data{
+    width: 80%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.PortfolioProject:hover{
+    transform: rotate3d(0,1,0,0deg) translateX(0%);
+    cursor: pointer;
+}
+
