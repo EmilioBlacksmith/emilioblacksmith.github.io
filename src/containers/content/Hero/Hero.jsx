@@ -6,7 +6,7 @@ export function Hero(){
     const stack = ["", "", "", "", "", "", "󰚯", "󰦱", "","󱏿", "", ""];
 
     return (
-        <div className='Hero'>
+        <section className="hidden" id='Hero-Section'>
             <div className='hero_data'>
                 <div className='hero_intro'>
                     <img src={ProfilePicture} className='hero_profile'/>
@@ -35,6 +35,6 @@ export function Hero(){
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }

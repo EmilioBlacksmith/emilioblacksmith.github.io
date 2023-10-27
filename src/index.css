@@ -42,3 +42,30 @@ body{
 a{
     color: var(--body_text_color);
 }
+
+html{
+    scroll-snap-type: y mandatory;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1{
+    color: var(--body_title_color);
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transition: ease-in-out .2s;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+}
+
+@media (prefers-reduced-motion) {
+    .hidden {
+      transition: none;
+    }
+}
