@@ -1,0 +1,7 @@
+.portfolio_data{
+    width: 85%;
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
