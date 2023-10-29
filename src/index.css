@@ -41,6 +41,12 @@ body{
 
 a{
     color: var(--body_text_color);
+    transition: ease-in .15s;
+}
+
+a:hover{  
+    filter: drop-shadow(0px 0px 4px var(--body_button_shadow));
+    transform: scale(102%);
 }
 
 html{

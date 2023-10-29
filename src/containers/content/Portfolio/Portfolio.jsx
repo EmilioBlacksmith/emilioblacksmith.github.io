@@ -25,7 +25,7 @@ export function Portfolio(){
                             <p>
                                 A recreation of the classic videogame of FROGGER (1981), but with active ragdoll phyisics movement, like Gang Beasts, Humans Fall Flat or Fall Guys.
                             </p>
-                            <a>LEARN MORE...</a>
+                            <a href='https://emilioblacksmith.itch.io/frogger-but-with-ragdolls' target='_blank'>LEARN MORE...</a>
                         </div>
                         <img src="/assets/Images/portfolio/portfolio1.gif"/>
                     </div>
@@ -37,7 +37,7 @@ export function Portfolio(){
                                 A minimalistic responsive website to showcase main social media links or project links, to share to others online.
                                 It is bases in Linktree and Linkin.bio.
                             </p>
-                            <a>LEARN MORE...</a>
+                            <a href='https://github.com/EmilioBlacksmith/bioLink' target='_blank'>LEARN MORE...</a>
                         </div>
                         <img src="/assets/Images/portfolio/portfolio2.gif"/>
                     </div>
@@ -48,7 +48,7 @@ export function Portfolio(){
                             <p>
                                 A Shooting Platformer 2D game where the movement and interaction within the environment is being done by shooting a plasma gun thru a laboratory.
                             </p>
-                            <a>LEARN MORE...</a>
+                            <a href='https://emilioblacksmith.itch.io/lucho-the-shooting-dog' target='_blank'>LEARN MORE...</a>
                         </div>
                         <img src="/assets/Images/portfolio/portfolio3.gif"/>
                     </div>           
