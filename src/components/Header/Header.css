@@ -28,6 +28,7 @@
     top: 18px;
     right: 32px;
     color: var(--body_title_color);
+    width: 2%;
 }
 
 input[type="checkbox"] {
@@ -46,6 +47,7 @@ input[type="checkbox"]:hover::after{
     font-size: 2em;
     content: "\f186";
     text-shadow: 0px 0px 2px var(--body_color);
+    filter: drop-shadow(0px 0px 4px var(--body_button_shadow));
 }
 
 input[type="checkbox"]:checked::after{
@@ -60,5 +62,6 @@ input[type="checkbox"]:hover:checked::after{
     color: var(--body_color);
     content: "\f522";
     text-shadow: 0px 0px 2px var(--body_color);
+    filter: drop-shadow(0px 0px 4px var(--body_button_shadow));
 }
 
