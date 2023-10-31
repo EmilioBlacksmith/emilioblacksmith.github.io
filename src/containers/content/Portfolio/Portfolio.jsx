@@ -27,7 +27,9 @@ export function Portfolio(){
                             </p>
                             <a href='https://emilioblacksmith.itch.io/frogger-but-with-ragdolls' target='_blank'>LEARN MORE...</a>
                         </div>
-                        <img src="/assets/Images/portfolio/portfolio1.gif"/>
+                        <video autoPlay loop muted>
+                            <source type='video/webm' src="/assets/Portfolio/portfolio1.webm"/>
+                        </video>
                     </div>
                     <div className="PortfolioProject">
                         <h3>2023 || Web Developer</h3>
@@ -39,7 +41,9 @@ export function Portfolio(){
                             </p>
                             <a href='https://github.com/EmilioBlacksmith/bioLink' target='_blank'>LEARN MORE...</a>
                         </div>
-                        <img src="/assets/Images/portfolio/portfolio2.gif"/>
+                        <video autoPlay loop muted>
+                            <source type='video/webm' src="/assets/Portfolio/portfolio2.webm"/>
+                        </video>
                     </div>
                     <div className="PortfolioProject">
                         <h3>2022 || Game Developer</h3>
@@ -50,7 +54,9 @@ export function Portfolio(){
                             </p>
                             <a href='https://emilioblacksmith.itch.io/lucho-the-shooting-dog' target='_blank'>LEARN MORE...</a>
                         </div>
-                        <img src="/assets/Images/portfolio/portfolio3.gif"/>
+                        <video autoPlay loop muted>
+                            <source type='video/webm' src="/assets/Portfolio/portfolio3.webm"/>
+                        </video>
                     </div>           
                 </div>
             </div>

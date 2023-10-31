@@ -9,13 +9,13 @@ export function Hero(){
         <section className="hidden" id='Hero-Section'>
             <div className='hero_data'>
                 <div className='hero_intro'>
-                    <img src={ProfilePicture} className='hero_profile'/>
+                    <img src={ProfilePicture} className='hero_profile' alt='profile picture of Emilio Blacksmith' width={'50%'} height={'auto'}/>
                     <div className='hero_cta'>
                         <h1>HOWDY! 🤠</h1>
                         <p>I make Development fun to watch (Sometimes...)</p>
                         <div className='hero_cta_buttons'>
                             <a href='#Portfolio-Section'>My Portfolio</a>
-                            <a>Resume</a>
+                            <a href='/'>Resume</a>
                         </div>
                     </div>
                 </div>

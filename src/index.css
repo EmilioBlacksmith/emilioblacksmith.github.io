@@ -1,13 +1,14 @@
 @font-face {
     font-family: Hack;
     src: url(/fonts/HackNerdFont-Bold.ttf);
+    font-display: swap;
 }
 
 :root{
     --body_background: #b1cbf8;
     --body_text_color: #1b1d22;
     --body_title_color: #000000;
-    --body_subtitle_color: #1c4586;
+    --body_subtitle_color: #15376A;
     --body_section_background: rgba(0, 0, 0, 0.25);
     --body_button_shadow: rgb(0, 0, 0);
     --body_button_text: #cfcfcf;
@@ -17,11 +18,12 @@
 
 [data-theme="dark"]{
     --body_background: #0e1929;
-    --body_text_color: #768194;
+    --body_text_color: #9CA5AF;
     --body_title_color: #DBEDF3;
-    --body_subtitle_color: #244e9b;
+    --body_subtitle_color: #81A3EE;
     --body_section_background: rgba(0, 0, 0, 0.25);
     --body_button_shadow: rgba(255, 255, 255, 0.25);
+    --body_button_text: #171717;
     
     --logo: url(/assets/Logos/logo_darkmode.webp)
 }

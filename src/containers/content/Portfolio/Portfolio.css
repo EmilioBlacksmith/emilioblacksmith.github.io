@@ -46,7 +46,7 @@
     cursor: pointer;
 }
 
-.PortfolioProject img{
+.PortfolioProject video{
     width: 40%;
     border-radius: 10px;
     box-shadow: 0 4px 4px var(--body_button_shadow);
