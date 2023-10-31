@@ -10,7 +10,7 @@
     --body_title_color: #000000;
     --body_subtitle_color: #15376A;
     --body_section_background: rgba(0, 0, 0, 0.25);
-    --body_button_shadow: rgb(0, 0, 0);
+    --body_button_shadow: rgb(0, 0, 0, 0.3);
     --body_button_text: #cfcfcf;
 
     --logo: url(/assets/Logos/logo_lightmode.webp)
@@ -22,7 +22,7 @@
     --body_title_color: #DBEDF3;
     --body_subtitle_color: #81A3EE;
     --body_section_background: rgba(0, 0, 0, 0.25);
-    --body_button_shadow: rgba(255, 255, 255, 0.25);
+    --body_button_shadow: rgba(255, 255, 255, 0.3);
     --body_button_text: #171717;
     
     --logo: url(/assets/Logos/logo_darkmode.webp)
