@@ -29,6 +29,10 @@
     flex-direction: column;
 }
 
+.Youtube-Section p{
+    color: var(--body_subtitle_color);
+}
+
 .video_group{
     width: 100%;
     height: 80%;
@@ -70,6 +74,8 @@
     text-align: center;
 }
 
+
 .blog-post p{
     text-align: justify;
+    color: var(--body_subtitle_color);
 }

@@ -27,11 +27,11 @@ export function Hero(){
                     </div>
                     <div className='hero_tech'>
                         <h2>MY TECH STACK</h2>
-                        <tech>
+                        <nav className='tech'>
                             {stack.map((stack) => (
-                                <object key={stack.id}>{stack}</object>
+                                <object key={stack}>{stack}</object>
                             ))}
-                        </tech>
+                        </nav>
                     </div>
                 </div>
             </div>

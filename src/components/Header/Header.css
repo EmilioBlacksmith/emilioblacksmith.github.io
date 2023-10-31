@@ -31,6 +31,12 @@
     width: 2%;
 }
 
+.darkmode-label{
+    visibility: hidden;
+    position: fixed;
+    top: 18px;
+}
+
 input[type="checkbox"] {
     appearance: none;
     cursor: pointer;

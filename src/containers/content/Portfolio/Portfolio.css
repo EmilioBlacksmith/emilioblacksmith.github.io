@@ -17,19 +17,18 @@
 }
 
 .Projects{
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 32px;
     flex-wrap: wrap;
-    align-content: flex-end;
+    align-content: center;
     justify-content: space-around;
 }
 
 .PortfolioProject{
-    width: 50%;
+    width: 45%;
     height: 40%;
-    transform: rotate3d(0,1,0,30deg) translateX(+5%);
     perspective: 10em;
     transition: ease-in .1s;
     background-color: var(--body_section_background);
@@ -39,6 +38,12 @@
     display: flex;
     align-items: center;
     gap: 24px;
+    opacity: .85;
+}
+
+.PortfolioProject:hover{
+    opacity: 1;
+    cursor: pointer;
 }
 
 .PortfolioProject img{
@@ -50,7 +55,7 @@
 .PortfolioProject h3{
     position: absolute;
     bottom: 0%;
-    left: -4%;
+    left: -2.5%;
     transform: rotate(270deg);
     transform-origin: 0 0;
     color: var(--body_subtitle_color);
@@ -65,10 +70,6 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
-}
-
-.PortfolioProject:hover{
-    transform: rotate3d(0,1,0,0deg) translateX(0%);
-    cursor: pointer;
+    font-size: 100%;
 }
 

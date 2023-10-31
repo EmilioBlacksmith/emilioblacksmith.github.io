@@ -38,6 +38,7 @@ export function Header() {
         <>
             <div className="Header">
                 <a className="Logo" href='/'></a>
+                <label htmlFor='darkmode-toggle' className='darkmode-label'>dark mode toggle</label>
                 <input 
                     className='darkModeToggle'
                     type='checkbox'
