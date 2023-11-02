@@ -12,6 +12,7 @@
     --body_section_background: rgba(0, 0, 0, 0.25);
     --body_button_shadow: rgb(0, 0, 0, 0.3);
     --body_button_text: #cfcfcf;
+    --body_mobile_header: #8598ba;
 
     --logo: url(/assets/Logos/logo_lightmode.webp)
 }
@@ -24,6 +25,7 @@
     --body_section_background: rgba(0, 0, 0, 0.25);
     --body_button_shadow: rgba(255, 255, 255, 0.3);
     --body_button_text: #171717;
+    --body_mobile_header: #0a131f;
     
     --logo: url(/assets/Logos/logo_darkmode.webp)
 }

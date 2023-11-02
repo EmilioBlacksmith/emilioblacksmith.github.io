@@ -75,7 +75,8 @@
 
     .SectionName{
         width: 90%;
-        height: 150px;
+        height: 110px;
+        border-radius: 15px;
         font-size: 16pt;
         text-align: center;
     }
