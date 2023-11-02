@@ -37,11 +37,12 @@ export function Header() {
     return (
         <>
             <div className="Header">
-                <a className="Logo" href='/'></a>
+                <a className="Logo" aria-label="Emilio Blacksmith's Portfolio Website" href='./'></a>
+                <label htmlFor='darkMode-toggle' className='darkmode-label'>dark mode toggle</label>
                 <input 
                     className='darkModeToggle'
                     type='checkbox'
-                    id='darkmode-toggle'
+                    id='darkMode-toggle'
                     onChange={handleDarkMode}
                     defaultChecked={theme === 'dark'}
                 ></input>
