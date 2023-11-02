@@ -22,15 +22,15 @@ export function More(){
                     <div className='Blog-Section'>
                         <div className='blog-post'>
                             <h3>I wrote about:</h3>
-                            <h1>Insecurities</h1>
-                            <p>Life is interesting sometimes, it bless you with people, it bless you with time, it bless you with commodity, it bless you with many things to be grateful for. I'm grateful...</p>
-                            <a href="https://emilioblacksmith.github.io/Blog/posts/goodbye_unity/" target='_blank'>Read More...</a>
+                            <h1>From Gamedev to Webdev Roadmap</h1>
+                            <p>I'm a game developer, I've been a game developer ever since 2017, I started in a very early stage, by doing simple projects here and there, by following a ton of tutorials, and since 2021...</p>
+                            <a href="https://emilioblacksmith.github.io/Blog/posts/from-gamedev-to-webdev/" target='_blank'>Read More...</a>
                         </div>
                         <div className='blog-post'>
                             <h3>I wrote about:</h3>
-                            <h1>The Trick Behind Productivity</h1>
-                            <p>You have probably felt the same, you're exploring different youtube videos about the topic of self improvement, productivity and how to use your time efficiently to make more things...</p>
-                            <a href="https://emilioblacksmith.github.io/Blog/posts/the-trick-behind-productivity/" target='_blank'>Read More...</a>
+                            <h1>Insecurities</h1>
+                            <p>Life is interesting sometimes, it bless you with people, it bless you with time, it bless you with commodity, it bless you with many things to be grateful for. I'm grateful I'm not going to lie...</p>
+                            <a href="https://emilioblacksmith.github.io/Blog/posts/insecurities/" target='_blank'>Read More...</a>
                         </div>
                     </div>
                 </div>
