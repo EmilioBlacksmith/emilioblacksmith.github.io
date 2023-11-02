@@ -4,6 +4,7 @@ import { Header } from "./components/Header/Header";
 import { Hero } from "./containers/content/Hero/Hero";
 import { More } from "./containers/content/More/More";
 import { Portfolio } from "./containers/content/Portfolio/Portfolio";
+import { MobileFooter } from "./components/Nav/MobileFooter";
 
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
             <Hero />
             <Portfolio />
             <More />
+            <MobileFooter />
         </>
     );
 }
