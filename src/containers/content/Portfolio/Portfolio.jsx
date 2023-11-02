@@ -9,8 +9,8 @@ export function Portfolio(){
                 </div>
                 <div className="Projects">
                     <div className="PortfolioProject">
-                        <h3>2023 || Web Developer</h3>
                         <div className='project_data'>
+                            <h3>2023 || Web Developer</h3>
                             <h1>TUBEPLANNER</h1>
                             <p>
                                 A Youtuber Script Writer and Planner App, for desktop. With the focus on thumbnail testing tools, script writing tool based on kanban boards like trello, and Calendar Planner for video projects.
@@ -19,8 +19,8 @@ export function Portfolio(){
                         </div>
                     </div>
                     <div className="PortfolioProject">
-                        <h3>2023 || Game Developer</h3>
                         <div className='project_data'>
+                            <h3>2023 || Game Developer</h3>
                             <h1>MOTHER FROGGER</h1>
                             <p>
                                 A recreation of the classic videogame of FROGGER (1981), but with active ragdoll phyisics movement, like Gang Beasts, Humans Fall Flat or Fall Guys.
@@ -32,8 +32,8 @@ export function Portfolio(){
                         </video>
                     </div>
                     <div className="PortfolioProject">
-                        <h3>2023 || Web Developer</h3>
                         <div className='project_data'>
+                            <h3>2023 || Web Developer</h3>
                             <h1>BIOLINKS</h1>
                             <p>
                                 A minimalistic responsive website to showcase main social media links or project links, to share to others online.
@@ -46,8 +46,8 @@ export function Portfolio(){
                         </video>
                     </div>
                     <div className="PortfolioProject">
-                        <h3>2022 || Game Developer</h3>
                         <div className='project_data'>
+                            <h3>2022 || Game Developer</h3>
                             <h1>LUCHO: The Shooting Dog</h1>
                             <p>
                                 A Shooting Platformer 2D game where the movement and interaction within the environment is being done by shooting a plasma gun thru a laboratory.
