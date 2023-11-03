@@ -12,10 +12,10 @@ export function More(){
                         <h1>I Do Youtube 🎥</h1>
                         <p>I do youtube videos since 2020 about development, trying to make it as entertaining as possible. (most of the time)</p>
                         <div className='video_group'>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Qnbxfw_oAZo?si=UsWvLQGbQv3Up-xs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className='video' allowFullScreen></iframe>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/h3VG6NCL3h8?si=mQn-IPfeo4wn97WH" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className='video' allowFullScreen></iframe>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ti1_qnA5-LY?si=3YG0u0-V9GmO-3NB" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className='video' allowFullScreen></iframe>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/QO2iFnoGquk?si=bcDGSG2e1ofT-6PN" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className='video' allowFullScreen></iframe>
+                            <a href="https://youtu.be/Qnbxfw_oAZo?si=A2svs_74KfwsBntv"><img src="/assets/Images/youtube/youtube_video1.webp" alt="thumbnail of video about Making FROGGER but with Ragdolls." className='video'/></a>
+                            <a href="https://youtu.be/Qnbxfw_oAZo?si=A2svs_74KfwsBntv"><img src="/assets/Images/youtube/youtube_video2.webp" alt="thumbnail of video about Making FROGGER but with Ragdolls." className='video'/></a>
+                            <a href="https://youtu.be/Qnbxfw_oAZo?si=A2svs_74KfwsBntv"><img src="/assets/Images/youtube/youtube_video3.webp" alt="thumbnail of video about Making FROGGER but with Ragdolls." className='video'/></a>
+                            <a href="https://youtu.be/Qnbxfw_oAZo?si=A2svs_74KfwsBntv"><img src="/assets/Images/youtube/youtube_video4.webp" alt="thumbnail of video about Making FROGGER but with Ragdolls." className='video'/></a>
                         </div>
                         <a href="https://www.youtube.com/channel/UC1ZeE2i5QwVwhWOV-HveneQ" target='_blank'>Learn More...</a>
                     </div>
