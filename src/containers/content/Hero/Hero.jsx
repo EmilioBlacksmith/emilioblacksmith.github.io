@@ -15,7 +15,7 @@ export function Hero(){
                         <p>I make Development fun to watch (Sometimes...)</p>
                         <div className='hero_cta_buttons'>
                             <a href='#Portfolio-Section'>My Portfolio</a>
-                            <a href='/'>Resume</a>
+                            <a href='/assets/resume.pdf' download>Resume</a>
                         </div>
                     </div>
                 </div>
