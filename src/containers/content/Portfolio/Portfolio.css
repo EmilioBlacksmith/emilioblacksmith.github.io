@@ -45,7 +45,7 @@
     text-transform: uppercase;
     width: 100%;
     font-size: small;
-    opacity: 65%;
+    opacity: .9;
 }
 
 .PortfolioProject video{
