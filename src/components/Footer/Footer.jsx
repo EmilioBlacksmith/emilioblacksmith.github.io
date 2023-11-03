@@ -13,7 +13,7 @@ export function Footer() {
                     <a href='https://www.youtube.com/channel/UC1ZeE2i5QwVwhWOV-HveneQ' target='_blank'>6. MY YOUTUBE</a>
                 </div>
                 <div className='Copyright'>
-                    Developed by <a href='https://github.com/EmilioBlacksmith/Portfolio' target='_blank' className='name'>EmilioBlacksmith</a>. MIT LICENSE 2023.
+                    Developed by <a href='https://github.com/EmilioBlacksmith/emilioblacksmith.github.io' target='_blank' className='name'>EmilioBlacksmith</a>. MIT LICENSE 2023.
                 </div>
             </div>
         </>
