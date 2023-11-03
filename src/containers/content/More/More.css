@@ -104,12 +104,12 @@
 
     .Youtube-Section{
         width: 100%;
-        height: 1150px;
+        height: 1250px;
     }
 
     .video_group{
         flex-direction: column;
-        gap: 8px;
+        gap: 0px;
     }
 
     .video_group a{
