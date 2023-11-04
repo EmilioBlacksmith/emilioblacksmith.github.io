@@ -23,7 +23,7 @@ export function Portfolio(){
                             <h3>2023 || Game Developer</h3>
                             <h1>MOTHER FROGGER</h1>
                             <p>
-                                A recreation of the classic videogame of FROGGER (1981), but with active ragdoll phyisics movement, like Gang Beasts, Humans Fall Flat or Fall Guys.
+                                A recreation of the classic videogame of FROGGER (1981), but with active ragdoll physics movement, like Gang Beasts, Humans Fall Flat or Fall Guys.
                             </p>
                             <a href='https://emilioblacksmith.itch.io/frogger-but-with-ragdolls' target='_blank'>LEARN MORE...</a>
                         </div>
