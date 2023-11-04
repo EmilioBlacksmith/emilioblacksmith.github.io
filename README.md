@@ -2,7 +2,7 @@
 
 ## A minimalistic personal portfolio website
 
-This Project is a Web App to showcase my recent projects and personal information for both job hunting and to share others what I'm currently working on. It was made from scratch using different design principles, and softly based on portfolio websites I gather online as reference such as [Eric Van Holtz Portfolio Website](https://vanholtz.co/).
+This Project is a minimalistic Website to showcase my recent projects and personal information for both job hunting and to share others what I'm currently working on. It was made from scratch using different design principles, and softly based on portfolio websites I gather online as reference such as [Eric Van Holtz Portfolio Website](https://vanholtz.co/).
 
 The main focus for this project was to:
 
