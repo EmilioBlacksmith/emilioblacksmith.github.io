@@ -6,21 +6,19 @@ import { More } from "./containers/content/More/More";
 import { Portfolio } from "./containers/content/Portfolio/Portfolio";
 import { MobileFooter } from "./components/Nav/MobileFooter";
 
-
 export default function App() {
+  useEffect(() => {
+    window.executeIntersection();
+  }, []);
 
-    useEffect(() => {
-        window.executeIntersection();
-    }, [])
-
-    return(
-        <>
-            <Header/>
-            <Footer/>
-            <Hero />
-            <Portfolio />
-            <More />
-            <MobileFooter />
-        </>
-    );
+  return (
+    <>
+      <Header />
+      <Footer />
+      <Hero />
+      <Portfolio />
+      <More />
+      <MobileFooter />
+    </>
+  );
 }
