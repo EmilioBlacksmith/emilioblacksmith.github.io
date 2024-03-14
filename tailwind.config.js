@@ -6,8 +6,9 @@ export default {
       "app-main": "hsl(221, 12%, 32%)",
       "app-secondary": "hsl(224, 12%, 19%)",
       "app-secondary-dark": "hsl(220, 11%, 11%)",
-      white: "#FFF",
-      black: "#000",
+      "app-secondary-light": "hsl(214, 9%, 55%)",
+      white: "hsl(207, 13%, 83%)",
+      black: "hsl(210, 20%, 2%)",
     },
     fontFamily: {
       sans: ["Hack"],

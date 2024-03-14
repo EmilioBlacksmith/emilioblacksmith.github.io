@@ -1,7 +1,9 @@
+import Header from "./Header";
+
 export default function App() {
-  return (
-    <div className="bg-app-main w-screen h-screen text-white font-sans">
-      <div className="text-2xl">Hello World!</div>
-    </div>
-  );
+    return (
+        <div className="flex h-screen w-screen justify-center bg-app-main font-sans text-white">
+            <Header />
+        </div>
+    );
 }
