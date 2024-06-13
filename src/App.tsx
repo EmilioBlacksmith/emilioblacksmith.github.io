@@ -1,3 +1,11 @@
-export default function App() {
-	return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+import Sidebar from "./views/Sidebar";
+
+function App() {
+	return (
+		<div className="w-screen h-screen m-0 p-0 bg-white flex">
+			<Sidebar />
+		</div>
+	);
 }
+
+export default App;
