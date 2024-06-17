@@ -5,7 +5,8 @@ export default {
 		colors: {
 			black: "#000000",
 			white: "#FFFFFF",
-			gray: "#D3D3D3",
+			light_gray: "#D3D3D3",
+			gray: "#8E8E8E",
 			dark_gray: "#4D535E",
 		},
 		fontFamily: {
