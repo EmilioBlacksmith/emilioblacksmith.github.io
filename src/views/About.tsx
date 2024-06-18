@@ -1,14 +1,13 @@
 import DateBar from "../components/About/dateBar";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper/modules";
-import "swiper/css";
-import profileImage from "../assets/profile.jpg";
+import profileImage from "../assets/profile.webp";
+import Skills from "../components/About/Skills";
+import ProjectSlider from "../components/About/ProjectSlider";
 
 function About() {
     return (
         <div className="flex w-4/5 flex-col justify-between gap-8 p-10">
             <DateBar />
-            <p className="text-xl">
+            <p className="text-justify text-xl">
                 Emilio Herrera (Emilio Blacksmith) is a user-focused software
                 engineer with a degree in Interactive Design (UX/UI). He has
                 embarked on diverse projects, from video game development to
@@ -20,26 +19,11 @@ function About() {
             <div className="flex h-96 gap-8">
                 <div
                     style={{ backgroundImage: `url(${profileImage})` }}
-                    className="h-full w-1/3 rounded-xl bg-cover shadow-3xl"
+                    className="h-full w-1/4 rounded-xl bg-cover shadow-3xl"
                 />
-                <Swiper
-                    className="h-full w-2/3"
-                    slidesPerView={1}
-                    scrollbar={{ draggable: true }}
-                    grabCursor={true}
-                    loop={true}
-                    autoplay={{
-                        delay: 3000,
-                        disableOnInteraction: false,
-                    }}
-                    modules={[Autoplay, Pagination]}
-                >
-                    <SwiperSlide>1</SwiperSlide>
-                    <SwiperSlide>2</SwiperSlide>
-                    <SwiperSlide>3</SwiperSlide>
-                </Swiper>
+                <ProjectSlider />
             </div>
-            <div></div>
+            <Skills />
         </div>
     );
 }

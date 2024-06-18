@@ -21,7 +21,7 @@ function DateBar() {
     }, []);
 
     return (
-        <div className="flex h-16 w-full justify-between text-gray">
+        <div className="flex h-10 w-full justify-between text-gray">
             <p>Howdy, Partner! 🤠</p>
             <p>{date} 🕓</p>
         </div>

@@ -1,6 +1,6 @@
 function Contact() {
     return (
-        <div className="w-full p-4">
+        <div className="w-4/5 p-10">
             <h1>Conectemos aca...</h1>
             <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.

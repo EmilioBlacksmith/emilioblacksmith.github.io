@@ -12,23 +12,48 @@ export default function Sidebar() {
             </div>
             <div className="flex h-3/4 w-full flex-col items-center justify-center gap-4">
                 <SidebarProjectButton
-                    title="Project"
+                    title="Portfolio Website"
                     year="2024"
                     direction="/"
                 />
                 <SidebarProjectButton
-                    title="Project"
+                    title="Movie Landing Page"
                     year="2024"
                     direction="/"
                 />
                 <SidebarProjectButton
-                    title="Project"
+                    title="The Busy Gamer App"
                     year="2024"
                     direction="/"
                 />
                 <SidebarProjectButton
-                    title="Project"
+                    title="Node Terminal Contact Card"
                     year="2024"
+                    direction="/"
+                />
+                <SidebarProjectButton
+                    title="Tic Tac Toe in Node Terminal"
+                    year="2024"
+                    direction="/"
+                />
+                <SidebarProjectButton
+                    title="bioLink"
+                    year="2023"
+                    direction="/"
+                />
+                <SidebarProjectButton
+                    title="Mother Frogger"
+                    year="2023"
+                    direction="/"
+                />
+                <SidebarProjectButton
+                    title="LUCHO: The Shooting Dog"
+                    year="2022"
+                    direction="/"
+                />
+                <SidebarProjectButton
+                    title="Emilio Blacksmith"
+                    year="2021"
                     direction="/"
                 />
             </div>
