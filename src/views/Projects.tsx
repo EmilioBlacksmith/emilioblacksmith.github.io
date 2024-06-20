@@ -1,4 +1,4 @@
-function Contact() {
+function Projects() {
     return (
         <div className="w-4/5 p-10">
             <h1>Conectemos aca...</h1>
@@ -12,4 +12,4 @@ function Contact() {
     );
 }
 
-export default Contact;
+export default Projects;

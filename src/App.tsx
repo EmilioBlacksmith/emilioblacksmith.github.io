@@ -1,7 +1,7 @@
 import Sidebar from "./views/Sidebar";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import About from "./views/About";
-import Contact from "./views/Contact";
+import Projects from "./views/Projects";
 
 function App() {
     return (
@@ -10,7 +10,7 @@ function App() {
                 <Sidebar />
                 <Routes>
                     <Route path="/" element={<About />} />
-                    <Route path="/contact" element={<Contact />} />
+                    <Route path="/projects" element={<Projects />} />
                 </Routes>
             </div>
         </Router>

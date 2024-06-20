@@ -8,7 +8,7 @@ export default function Sidebar() {
             <div className="flex h-1/4 w-full flex-col items-end justify-center gap-4">
                 <Logo />
                 <SidebarSectionButton title="About" direction="/" />
-                <SidebarSectionButton title="Contact" direction="/contact" />
+                <SidebarSectionButton title="Projects" direction="/projects" />
             </div>
             <div className="flex h-3/4 w-full flex-col items-center justify-center gap-4">
                 <SidebarProjectButton
