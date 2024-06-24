@@ -1,5 +1,5 @@
 import DateBar from "../components/About/dateBar";
-import profileImage from "../assets/profile.webp";
+import profileImage from "../assets/about/profile.webp";
 import Skills from "../components/About/Skills";
 import ProjectSlider from "../components/About/ProjectSlider";
 

@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Portfolio Website",
+        "year": 2024,
+        "description": "This Movie Landing Page leverages the TMDB API and display the a list of movies and tv shows. Users can browse through the lists and sections, view detailed information about each media and enjoy a smooth and responsive user experience.",
+        "sliderImg": ""
+    },
+    {
+        "title": "Movie Landing Page",
+        "year": 2024,
+        "description": "This Movie Landing Page leverages the TMDB API and display the a list of movies and tv shows. Users can browse through the lists and sections, view detailed information about each media and enjoy a smooth and responsive user experience.",
+        "sliderImg": "/images/slider/1.webp"
+    },
+    {
+        "title": "The Busy Gamer App",
+        "year": 2024,
+        "description": "The Busy Gamer Web App allows you to track videogames that you want to play, and makes an approximation of how long is going to take you to finish those games, based on your schedule. Powered by How Long To Beat API.",
+        "sliderImg": "/images/slider/2.webp"
+    },
+    {
+        "title": "Node Terminal Contact Card",
+        "year": 2024,
+        "description": "A terminal-based contact info / business card, that can be called anywhere with NPM.",
+        "sliderImg": "/images/slider/3.webp"
+    },
+    {
+        "title": "Tic Tac Toe in Node Terminal",
+        "year": 2024,
+        "description": "",
+        "sliderImg": ""
+    },
+    {
+        "title": "bioLink",
+        "year": 2023,
+        "description": "A minimalistic responsive website to showcase main social media links or project links, to share to others online. It is based in Linktree and Linkin.bio.",
+        "sliderImg": "/images/slider/4.webp"
+    },
+    {
+        "title": "Mother Frogger",
+        "year": 2023,
+        "description": "",
+        "sliderImg": ""
+    },
+    {
+        "title": "LUCHO: The Shooting Dog",
+        "year": 2023,
+        "description": "",
+        "sliderImg": ""
+    },
+    {
+        "title": "Emilio Blacksmith",
+        "year": 2023,
+        "description": "",
+        "sliderImg": ""
+    }
+]
