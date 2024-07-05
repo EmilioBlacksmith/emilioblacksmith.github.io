@@ -1,10 +1,10 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
-import project1Image from "../../assets/about/1.webp";
-import project2Image from "../../assets/about/2.webp";
-import project3Image from "../../assets/about/3.webp";
-import project4Image from "../../assets/about/4.webp";
+import project1Image from "/images/slider/1.webp";
+import project2Image from "/images/slider/2.webp";
+import project3Image from "/images/slider/3.webp";
+import project4Image from "/images/slider/4.webp";
 
 function ProjectSlider() {
     return (
