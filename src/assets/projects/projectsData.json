@@ -1,9 +1,16 @@
 [
     {
+        "title": "Finsphera",
+        "year": 2024,
+        "description": "Next generation FinTech platform",
+        "projectImgs": ["/images/previews/project_7/1.webp"],
+        "overview": "Currently working as a Frontend Software engineer, making new awesome projects.",
+        "role": "Software Engineer - Frontend"
+    },
+    {
         "title": "Portfolio Website",
         "year": 2024,
         "description": "A portfolio website that foscuses on showcasing both the technologies that I use, and the projects that I've built over the years.",
-        "sliderImg": "",
         "projectImgs": ["", ""],
         "techStack": [
             "REACT",
@@ -12,14 +19,17 @@
             "React-Router",
             "Prettier",
             "Vite",
-            "Swiper"
+            "Swiper",
+            "Prettier"
         ],
         "overview": "Here, you will find a comprehensive showcase of the technologies I use and the projects I've built over the years. My journey as a developer has been driven by a passion for innovation, problem-solving, and continuous learning. This platform is designed to give you an in-depth look at my skills, experiences, and the diverse range of projects I've worked on.",
         "challenges": "One of the challenges I faced while developing this website was adhering to the DRY (Don't Repeat Yourself) principle. To avoid manually creating each project section, I opted to use a JSON file to manage project data. This approach allows both the about section and the project section to dynamically call and display the data, ensuring efficiency and consistency across the site.",
         "role": "Full Stack Developer",
         "features": [
-            "<b>Dynamic Routing:</b> for every single project/section I created a dynamic routing system with React Router.",
-            "<b>Responsive Design:</b> Due to the nature of this website, and to help reach out more people, the website can be displayed either on Desktop and Mobile."
+            {
+                "Dynamic Routing": "For every single project/section I created a dynamic routing system with React Router.",
+                "Responsive Design": "Due to the nature of this website, and to help reach out more people, the website can be displayed either on Desktop and Mobile."
+            }
         ]
     },
     {
@@ -41,16 +51,19 @@
             "Jest",
             "Nerd Fonts",
             "Vite",
-            "Swiper"
+            "Swiper",
+            "Prettier"
         ],
-        "overview": "This FinSphera Movie Landing Page leverages the <a href='https://www.themoviedb.org/'>TMDB API</a> and display the a list of movies and tv shows. Users can browse through the lists and sections, view detailed information about each media and enjoy a smooth and responsive user experience.",
+        "overview": "This Movie Landing Page leverages the <a href='https://www.themoviedb.org/'>TMDB API</a> and display the a list of movies and tv shows. Users can browse through the lists and sections, view detailed information about each media and enjoy a smooth and responsive user experience.",
         "challenges": "One of the challenges I faced while developing this website was handling the API calls with the <a href='https://www.themoviedb.org/'>TMDB API</a>, besides the use of State Managment with React's Context API to dynamically change the current section being shown with sidebar or when calling each media card.",
         "role": "Front End Developer",
         "features": [
-            "<b>Dynamic Movie and TV Show List:</b> Fetch and display a slider list of movies and tv shows from the Movie Database API.",
-            "<b>Detailed View:</b> Click on a movie to view more detailed information including release date, ratings, and reviews.",
-            "<b>State Management:</b> Utilizes Context API for managing application state.",
-            "<b>API Integration:</b> Efficient handling of API requests to dynamically load movie data."
+            {
+                "Dynamic Movie and TV Show List": " Fetch and display a slider list of movies and tv shows from the Movie Database API.",
+                "Detailed View": "Click on a movie to view more detailed information including release date, ratings, and reviews.",
+                "State Management": "Utilizes Context API for managing application state.",
+                "API Integration": "Efficient handling of API requests to dynamically load movie data."
+            }
         ]
     },
     {
@@ -63,27 +76,49 @@
             "/images/previews/project_3/2.webp",
             "/images/previews/project_3/3.webp"
         ],
-        "techStack": ["", ""],
-        "overview": "",
-        "challenges": "",
+        "techStack": [
+            "REACT",
+            "Tailwind",
+            "Javascript",
+            "How Long To Beat API by Christian Katzorke ",
+            "Node.JS",
+            "Nerd Fonts",
+            "Vite",
+            "Swiper",
+            "Prettier",
+            "Axios"
+        ],
+        "overview": "The reasoning behind this app is that not every gamer can afford to play more than 1 to 2 hours sometimes, you can either need to go to work, or lack a lot of free time. This app is meant for you, the gamers who want to check how long it would take to finish every single Persona Videogame lol.",
+        "challenges": "One of the main challenges was how to handle props within the application, so we can truly track each videogame, and manage everything within the app, from allowing the player to see what games are already being tracked, and managing how we were going to get a result for the user, in this case how to handle the calculations of how long it would take you to finish the games you're tracking in the tracking list.",
         "role": "Full Stack Developer",
-        "features": ["", ""]
+        "features": [
+            {
+                "Game Tracking": "Keep a list of video games you want to play.",
+                "Time Estimation": "Calculate how long it will take you to finish your games based on you gaming schedule, either by it being weekly or daily basis.",
+                "How Long To Beat API Integration": "Accurate game completion time data gathered from How Long to Beat."
+            }
+        ]
     },
     {
         "title": "Node Terminal Contact Card",
         "year": 2024,
-        "description": "A terminal-based contact info / business card, that can be called anywhere with NPM.",
+        "description": "A terminal-based contact info / business card, that can be called anywhere with NPM(Node Package Manager).",
         "sliderImg": "/images/slider/3.webp",
         "projectImgs": [
             "/images/previews/project_4/1.webp",
             "/images/previews/project_4/2.webp",
             "/images/previews/project_4/3.webp"
         ],
-        "techStack": ["", ""],
-        "overview": "",
-        "challenges": "",
-        "role": "",
-        "features": ["", ""]
+        "techStack": ["Node.JS", "Typescript", "Inquirer", "Boxen"],
+        "overview": "A small terminal command line interface project so anyone can call your business card with NPX (It allows you to execute binaries from npm packages without having to install them globally on your system), so once you call in your terminal 'npx emilioblacksmith' it will show you all of my respective data.",
+        "challenges": "One of the main challenges of this project was how to handle the NPX command from the node package manage, due to the use of typescript instead of javascript the path forward for handling the npx command was not straight forward. Another challenge was how to handle a main menu (so to speak), so you can call any of my main social media or main links, this was made with the use of inquirer a node dependency.",
+        "role": "Back-end Developer",
+        "features": [
+            {
+                "Called anywhere": " Command can be called with the only requirement of having Node installed in you system.</b>",
+                "Main Menu": "An interactive Menu that forwards you to the desired links."
+            }
+        ]
     },
     {
         "title": "bioLink",
@@ -95,58 +130,61 @@
             "/images/previews/project_5/2.webp",
             "/images/previews/project_5/3.webp"
         ],
-        "techStack": ["", ""],
-        "overview": "",
-        "challenges": "",
-        "role": "",
-        "features": ["", ""]
+        "techStack": ["REACT", "Vanilla CSS", "Javascript", "FIGMA", "Vite"],
+        "overview": "Creating a minimalistic responsive website to showcase main social media or project links involves balancing simplicity with functionality. The goal is to provide users with an intuitive platform similar to Linktree and Linkin.bio, where they can easily share their key online presence.",
+        "challenges": "One of the primary challenges was ensuring the website's design remains clean and intuitive while still being customizable enough to cater to different users' needs. Besides handling a intuitive responsive mobile design, so it can be display anywhere for quality of life reasons.",
+        "role": "Full Stack Developer",
+        "features": [
+            {
+                "Mobile Responsive": "Designed with a mobile-first approach, ensuring a seamless experience on all devices. Whether you're using a smartphone, tablet, or desktop, the layout dynamically adjusts to provide optimal viewing and interaction.",
+                "Minimalist Design": "The minimalist design focuses on simplicity and elegance, eliminating unnecessary elements to highlight the essential content—your links.",
+                "Modularity": "The website is built with modularity in mind, allowing you to customize and expand it to suit your needs. Each component can be independently modified or replaced, making it easy to update or add new features without disrupting the overall structure."
+            }
+        ]
     },
     {
         "title": "Mother Frogger",
         "year": 2023,
-        "description": "",
-        "sliderImg": "",
+        "description": "FROGGER but with Ragdoll Physics, made with Unity.",
         "projectImgs": [
             "/images/previews/project_6/1.webp",
             "/images/previews/project_6/2.webp",
             "/images/previews/project_6/3.webp"
         ],
-        "techStack": ["", ""],
-        "overview": "",
-        "challenges": "",
-        "role": "",
-        "features": ["", ""]
-    },
-    {
-        "title": "LUCHO: The Shooting Dog",
-        "year": 2023,
-        "description": "",
-        "sliderImg": "",
-        "projectImgs": [
-            "/images/previews/project_7/1.webp",
-            "/images/previews/project_7/2.webp",
-            "/images/previews/project_7/3.webp"
-        ],
-        "techStack": ["", ""],
-        "overview": "",
-        "challenges": "",
-        "role": "",
-        "features": ["", ""]
+        "techStack": ["Unity", "C#", "Blender", "Adobe Suite", "GIT"],
+        "overview": "A simple infinite game inspired by FROGGER, incorporating these modern elements. While the game is loosely based on the original, it introduces significant changes in gameplay to take advantage of the current physics-based movement of the frog and the overall environment.",
+        "challenges": "The project's primary challenge involved integrating realistic, physics-based movement akin to games like Humans Fall Flat and Gang Beasts for the frog character, ensuring both realism and playability. Developing a secure global scoreboard, a dynamic physics-based traffic system influenced by random obstacles, and an intuitive grab and put system for environmental interactions added further complexity to the project.",
+        "role": "Game Developer",
+        "features": [
+            {
+                "Physics-Based Movement": "Realistic character dynamics with physics-based movement. Every joint of the character is governed by physics, adding an extra layer of challengeealistic character dynamics with physics-based movement. Every joint of the character is governed by physics, adding an extra layer of challenge.",
+                "Global Scoreboard": "The scoreboard can store up to 10 top scores, motivating players to strive for a spot in the top 10.",
+                "Traffic System": "A dynamic environment with our physics-based traffic system. Traffic flow can be disrupted by placing random obstacles, adding a strategic element to your gameplay."
+            }
+        ]
     },
     {
         "title": "Emilio Blacksmith",
-        "year": 2023,
-        "description": "",
-        "sliderImg": "",
+        "year": 2021,
+        "description": "My personal online developer brand, Emilio Blacksmith, it's my online persona, a youtube channel where I post about videogames, software and anything related to making software fun to watch to anyone.",
         "projectImgs": [
             "/images/previews/project_8/1.webp",
             "/images/previews/project_8/2.webp",
             "/images/previews/project_8/3.webp"
         ],
-        "techStack": ["", ""],
-        "overview": "",
-        "challenges": "",
-        "role": "",
-        "features": ["", ""]
+        "techStack": [
+            "Adobe Suite",
+            "Notion",
+            "Unity",
+            "REACT",
+            "MERN",
+            "UX/UI",
+            "Node.JS",
+            "GIT",
+            "Blender"
+        ],
+        "overview": "I blend my passion for software development with creative insights from interactive design. Based in Mexico, I specialize in Full Stack Web Development, crafting applications and video games that deliver exceptional user experiences. With a foundation in UX/UI, I've been immersed in coding since 2017-2018, constantly exploring new ways to make apps feel intuitive and enjoyable. Join me on YouTube, where I share my journey from game development to software creation.",
+        "challenges": "One of the main challenges of this personal brand has been finding the identity and how to make myself shine within the big dev community out there. The focus of my youtube channel and social media has been game development, but recently exploring other areas within software development.",
+        "role": "Founder and Full Stack Developer"
     }
 ]
