@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from "uuid";
-import fs from "fs";
-import path from "path";
+const fs = require("fs");
+const path = require("path");
 
 interface Project {
     id?: string;
@@ -8,7 +8,7 @@ interface Project {
     description: string;
 }
 
-const filePath = path.join(__dirname, "src/data/projectsData.json");
+const filePath = path.join(__dirname, "src/assets/projects/projectsData.json");
 
 const rawData = fs.readFileSync(filePath, "utf-8");
 const projects: Project[] = JSON.parse(rawData);
