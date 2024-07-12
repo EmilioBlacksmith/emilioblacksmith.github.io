@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import projectsData from "../projects/projectsData.json";
 
 interface Project {
-    id?: number;
+    id?: string;
     title: string;
     year: number;
     description: string;
