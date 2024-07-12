@@ -8,7 +8,7 @@ function Projects() {
     return (
         <div className="flex w-4/5 flex-col gap-8 p-10">
             <DateBar />
-            <section className="flex h-full flex-wrap justify-center gap-2">
+            <section className="flex h-full flex-wrap justify-around gap-2">
                 {data &&
                     data.map((project) => (
                         <Link
