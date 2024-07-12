@@ -1,5 +1,5 @@
 import DateBar from "../components/About/dateBar";
-import { useProjectData } from "../assets/projects/useProjectData";
+import { useProjectData } from "../hooks/useProjectData";
 import { Link } from "react-router-dom";
 
 function Projects() {
@@ -14,7 +14,7 @@ function Projects() {
                         <Link
                             key={project.id}
                             className="flex h-[33%] w-[32%] items-center justify-center rounded-2xl bg-cover"
-                            to="/projects"
+                            to={`/projects/${project.id}`}
                             style={{
                                 backgroundImage: `url(${project.projectImgs[0]})`,
                             }}

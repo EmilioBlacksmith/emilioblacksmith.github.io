@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import projectsData from "../projects/projectsData.json";
+import projectsData from "../assets/projects/projectsData.json";
 
 interface Project {
     id?: string;

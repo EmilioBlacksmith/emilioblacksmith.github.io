@@ -1,7 +1,7 @@
 import Logo from "../components/logo/Logo";
 import SidebarSectionButton from "../components/sidebar/SidebarSectionButton";
 import SidebarProjectButton from "../components/sidebar/SidebarProjectButton";
-import { useProjectData } from "../assets/projects/useProjectData";
+import { useProjectData } from "../hooks/useProjectData";
 
 export default function Sidebar() {
     const data = useProjectData();
@@ -20,7 +20,7 @@ export default function Sidebar() {
                             key={project.id}
                             title={project.title}
                             year={project.year.toString()}
-                            direction="/"
+                            direction={`/projects/${project.id}`}
                         />
                     ))}
             </div>

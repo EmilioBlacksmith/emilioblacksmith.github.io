@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
-import { useProjectData } from "../../assets/projects/useProjectData";
+import { useProjectData } from "../../hooks/useProjectData";
 
 function ProjectSlider() {
     const data = useProjectData();
