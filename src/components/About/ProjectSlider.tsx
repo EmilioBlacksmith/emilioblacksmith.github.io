@@ -2,6 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import { useProjectData } from "../../hooks/useProjectData";
+import { Link } from "react-router-dom";
 
 function ProjectSlider() {
     const data = useProjectData();
@@ -27,7 +28,10 @@ function ProjectSlider() {
                         className="bg-cover"
                         key={project.id}
                     >
-                        <div className="flex h-full w-full flex-col items-center justify-center gap-6 bg-black bg-opacity-60 p-10 text-center align-middle text-white opacity-0 transition-all ease-in-out hover:visible hover:opacity-100 hover:backdrop-blur-sm">
+                        <Link
+                            to={`/projects/${project.id}`}
+                            className="flex h-full w-full flex-col items-center justify-center gap-6 bg-black bg-opacity-60 p-10 text-center align-middle text-white opacity-0 transition-all ease-in-out hover:visible hover:opacity-100 hover:backdrop-blur-sm"
+                        >
                             <h1 className="text-xl font-black">
                                 {project.title}
                             </h1>
@@ -35,7 +39,7 @@ function ProjectSlider() {
                                 {project.description}
                             </p>
                             <p className="font-bold">click to learn more...</p>
-                        </div>
+                        </Link>
                     </SwiperSlide>
                 ))}
         </Swiper>

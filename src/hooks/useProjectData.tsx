@@ -11,7 +11,7 @@ interface Project {
     role: string;
     techStack?: string[];
     challenges?: string;
-    features?: { [key: string]: string }[];
+    features?: { title: string; description: string }[];
     sliderImg?: string;
 }
 

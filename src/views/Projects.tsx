@@ -19,10 +19,13 @@ function Projects() {
                                 backgroundImage: `url(${project.projectImgs[0]})`,
                             }}
                         >
-                            <div className="flex h-full w-full flex-col items-center justify-center gap-6 rounded-2xl bg-black bg-opacity-70 p-10 text-center align-middle text-white opacity-0 transition-all ease-in-out hover:visible hover:opacity-100 hover:backdrop-blur-sm">
+                            <div className="flex h-full w-full flex-col items-center justify-center gap-6 rounded-2xl bg-black bg-opacity-80 p-10 text-center align-middle text-white opacity-0 transition-all ease-in-out hover:visible hover:opacity-100 hover:backdrop-blur-sm">
                                 <h2 className="text-2xl font-black text-white">
                                     {project.title}
                                 </h2>
+                                <p className="text-sm text-gray">
+                                    {project.description}
+                                </p>
                             </div>
                         </Link>
                     ))}
