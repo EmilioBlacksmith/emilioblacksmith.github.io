@@ -15,7 +15,7 @@ const ProjectDetail: React.FC = () => {
             <h1 className="text-3xl font-black">
                 <b className="text-sm text-gray">Project:</b> {project.title}
             </h1>
-            <section className="just flex h-full w-full flex-wrap bg-light_gray">
+            <section className="just flex h-full w-full flex-wrap">
                 <div
                     className="h-1/3 w-1/2 rounded-md bg-cover shadow-3xl"
                     style={{
@@ -26,7 +26,7 @@ const ProjectDetail: React.FC = () => {
                     <div className="font-bold text-dark_gray">
                         {project.year} || {project.role}
                     </div>
-                    <div className="font-bold text-gray">
+                    <div className="font-bold text-dark_gray">
                         Technologies:{" "}
                         {project.techStack?.map((item, index) => (
                             <a key={index}>
