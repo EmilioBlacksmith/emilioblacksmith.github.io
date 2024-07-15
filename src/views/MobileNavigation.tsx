@@ -40,7 +40,7 @@ export default function MobileNavigation() {
                 )}
                 <Logo />
                 <div
-                    className="fixed right-0 top-0 z-50 flex h-14 w-14 items-center justify-center text-3xl font-black"
+                    className="fixed right-0 top-0 z-50 flex h-14 w-14 items-center justify-center text-3xl font-black hover:cursor-pointer"
                     onClick={HandleMenu}
                 >
                     󰍜
