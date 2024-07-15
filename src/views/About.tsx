@@ -5,9 +5,9 @@ import ProjectSlider from "../components/About/ProjectSlider";
 
 function About() {
     return (
-        <div className="flex w-full flex-col justify-between gap-8 p-10 lg:w-4/5">
+        <div className="mt-14 flex w-full flex-col justify-between gap-6 p-4 lg:mt-0 lg:w-4/5 lg:gap-8 lg:p-10">
             <DateBar />
-            <p className="text-justify text-xl">
+            <p className="text-justify lg:text-xl">
                 Emilio Herrera (Emilio Blacksmith) is a user-focused software
                 engineer with a degree in Interactive Design (UX/UI). He has
                 embarked on diverse projects, from video game development to
@@ -16,11 +16,12 @@ function About() {
                 Comfortable community. Currently, he is the founder and a
                 full-stack developer at Blacksmith Softworks.
             </p>
-            <div className="flex h-96 gap-8">
+            <div className="flex h-screen w-full flex-col gap-8 lg:h-96 lg:flex-row">
                 <div
                     style={{ backgroundImage: `url(${profileImage})` }}
-                    className="h-full w-1/4 rounded-xl bg-cover shadow-3xl"
+                    className="h-full w-full rounded-xl bg-cover shadow-3xl lg:w-1/4"
                 />
+                <p className="text-xl font-black lg:hidden">Some Projects...</p>
                 <ProjectSlider />
             </div>
             <Skills />

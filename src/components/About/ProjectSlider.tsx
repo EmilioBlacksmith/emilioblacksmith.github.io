@@ -10,13 +10,13 @@ function ProjectSlider() {
 
     return (
         <Swiper
-            className="h-full w-3/4 rounded-xl"
+            className="h-full w-full rounded-xl lg:w-3/4"
             slidesPerView={1}
             scrollbar={{ draggable: true }}
             grabCursor={true}
             loop={true}
             autoplay={{
-                delay: 4000,
+                delay: 3000,
                 disableOnInteraction: false,
             }}
             modules={[Autoplay, Pagination]}
@@ -30,12 +30,12 @@ function ProjectSlider() {
                     >
                         <Link
                             to={`/projects/${project.id}`}
-                            className="flex h-full w-full flex-col items-center justify-center gap-6 bg-black bg-opacity-60 p-10 text-center align-middle text-white opacity-0 transition-all ease-in-out hover:visible hover:opacity-100 hover:backdrop-blur-sm"
+                            className="flex h-full w-full flex-col items-center justify-center gap-2 bg-black bg-opacity-80 p-10 text-center align-middle text-white opacity-100 transition-all ease-in-out hover:backdrop-blur-sm lg:gap-6 lg:opacity-0 lg:hover:opacity-100"
                         >
-                            <h1 className="text-xl font-black">
+                            <h1 className="font-black lg:text-xl">
                                 {project.title}
                             </h1>
-                            <p className="text-sm text-gray">
+                            <p className="text-gray lg:text-sm">
                                 {project.description}
                             </p>
                             <p className="font-bold">click to learn more...</p>
