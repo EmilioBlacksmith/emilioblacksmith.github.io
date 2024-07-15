@@ -7,7 +7,7 @@ export default function Sidebar() {
     const data = useProjectData();
 
     return (
-        <div className="z-50 hidden h-full w-1/5 flex-col items-end justify-between outline outline-2 outline-light_gray lg:flex">
+        <div className="sticky left-0 top-0 z-50 hidden h-full w-1/5 flex-col items-end justify-between outline outline-2 outline-light_gray lg:flex">
             <div className="flex h-1/4 w-full flex-col items-end justify-center gap-4">
                 <Logo />
                 <SidebarSectionButton title="About" direction="/" />

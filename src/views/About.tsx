@@ -2,6 +2,7 @@ import DateBar from "../components/About/dateBar";
 import profileImage from "/images/profile.webp";
 import Skills from "../components/About/Skills";
 import ProjectSlider from "../components/About/ProjectSlider";
+import { Link } from "react-router-dom";
 
 function About() {
     return (
@@ -21,7 +22,12 @@ function About() {
                     style={{ backgroundImage: `url(${profileImage})` }}
                     className="h-full w-full rounded-xl bg-cover shadow-3xl lg:w-1/4"
                 />
-                <p className="text-xl font-black lg:hidden">Some Projects...</p>
+                <Link
+                    className="rounded-lg bg-light_gray p-3 text-xl font-black shadow-3xl lg:hidden"
+                    to="/projects"
+                >
+                    Click me to see my projects...
+                </Link>
                 <ProjectSlider />
             </div>
             <Skills />
