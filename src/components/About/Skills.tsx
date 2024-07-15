@@ -43,10 +43,10 @@ function Skills() {
     ];
 
     return (
-        <section className="flex h-96 gap-8 hover:cursor-default">
+        <section className="flex h-fit w-full flex-col gap-8 hover:cursor-default lg:h-96 lg:flex-row">
             {skillsData.map((card) => (
                 <div
-                    className="flex w-1/3 flex-col items-center justify-between gap-4 rounded-lg bg-light_gray p-4 shadow-3xl"
+                    className="flex w-full flex-col items-center justify-between gap-4 rounded-lg bg-light_gray p-4 shadow-3xl lg:w-1/3"
                     key={card.id}
                 >
                     <h1 className="text-xl font-black">{card.title}</h1>

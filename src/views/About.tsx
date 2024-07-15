@@ -5,7 +5,7 @@ import ProjectSlider from "../components/About/ProjectSlider";
 
 function About() {
     return (
-        <div className="flex w-4/5 flex-col justify-between gap-8 p-10">
+        <div className="flex w-full flex-col justify-between gap-8 p-10 lg:w-4/5">
             <DateBar />
             <p className="text-justify text-xl">
                 Emilio Herrera (Emilio Blacksmith) is a user-focused software
