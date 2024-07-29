@@ -3,5 +3,14 @@
     "tabWidth": 4,
     "semi": true,
     "singleQuote": false,
-    "plugins": ["prettier-plugin-tailwindcss"]
+    "plugins": ["prettier-plugin-tailwindcss"],
+    "overrides": [
+        {
+            "files": "*.md",
+            "options": {
+                "proseWrap": "preserve",
+                "tabWidth": 2
+            }
+        }
+    ]
 }

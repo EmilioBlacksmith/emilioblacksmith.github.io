@@ -15,8 +15,7 @@
             "React-Router",
             "Prettier",
             "Vite",
-            "Swiper",
-            "Prettier"
+            "Swiper"
         ],
         "overview": "Here, you will find a comprehensive showcase of the technologies I use and the projects I've built over the years. My journey as a developer has been driven by a passion for innovation, problem-solving, and continuous learning. This platform is designed to give you an in-depth look at my skills, experiences, and the diverse range of projects I've worked on.",
         "challenges": "One of the challenges I faced while developing this website was adhering to the DRY (Don't Repeat Yourself) principle. To avoid manually creating each project section, I opted to use a JSON file to manage project data. This approach allows both the about section and the project section to dynamically call and display the data, ensuring efficiency and consistency across the site.",
